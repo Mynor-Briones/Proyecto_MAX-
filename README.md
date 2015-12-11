@@ -1,2 +1,1 @@
-# Software_Distribidora_De_Libreria
-
+# Sistema_De_Gestion_Clinica
