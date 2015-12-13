@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.button5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -56,23 +56,15 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(633, 340);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel1.Location = new System.Drawing.Point(82, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(543, 334);
-            this.panel1.TabIndex = 0;
-            // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Controls.Add(this.button5, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.button4, 0, 3);
-            this.tableLayoutPanel2.Controls.Add(this.button3, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.button2, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.button1, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.button5, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.button1, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.button2, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.button3, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.button4, 0, 4);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 5;
@@ -85,9 +77,18 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(73, 334);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(3, 3);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(67, 60);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "CITAS";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Location = new System.Drawing.Point(3, 69);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(67, 60);
             this.button1.TabIndex = 0;
@@ -96,7 +97,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(3, 69);
+            this.button2.Location = new System.Drawing.Point(3, 135);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(67, 60);
             this.button2.TabIndex = 1;
@@ -105,7 +106,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(3, 135);
+            this.button3.Location = new System.Drawing.Point(3, 201);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(67, 60);
             this.button3.TabIndex = 2;
@@ -114,21 +115,20 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(3, 201);
+            this.button4.Location = new System.Drawing.Point(3, 267);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(67, 60);
             this.button4.TabIndex = 3;
             this.button4.Text = "Registro \r\nde\r\nTipos Examenes";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // panel1
             // 
-            this.button5.Location = new System.Drawing.Point(3, 267);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(67, 60);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.Location = new System.Drawing.Point(82, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(543, 334);
+            this.panel1.TabIndex = 0;
             // 
             // Form1
             // 
